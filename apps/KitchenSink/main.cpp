@@ -7,10 +7,10 @@
 // #include "hardware/i2c.h"
 
 
-#include <temperature/onBoardTemperature.h>
-#include <gyro/mpu6050.h>
-// #include <servo/servo.h>
-// #include <servo/servo_controller.h>
+#include "onBoardTemperature.h"
+#include "mpu6050.h"
+// #include "servo/servo.h"
+// #include "servo/servo_controller.h"
 
 // The one LED
 const uint LED_PIN = 25;
