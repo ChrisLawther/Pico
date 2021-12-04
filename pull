@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+rsync -av \
+    --exclude=build \
+    pi3:pico/Code/ .

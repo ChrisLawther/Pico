@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+rsync -av \
+    --exclude=.git \
+    --exclude=push \
+    --exclude=pull \
+    --exclude=.DS_Store \
+    . pi3:pico/Code
